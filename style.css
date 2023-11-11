@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.head-title {
+    width: 485px;
+    height: 230px;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.img-container img {
+    height: 438px;
+    width: 556px;
+}
+
+button a {
+    background-color: #E02C6D;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+button {
+    background-color: #E02C6D;
+    color: white;
+    padding: 5px;
+    border: 5px solid #E02C6D;
+}
+
+.player-img img {
+    width: 300px;
+    height: 256px;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.player-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 60px;
+}
+
+.player-title {
+    width: 300px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.player {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    margin: 60px;
+    height: 375px;
+
+}
+
+.img-lastcontainer img {
+    width: 567px;
+    height: 427px;
+}
+
+
+.last-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    width: 485px;
+
+    margin-right: 100px;
+}
+
+.title1 {
+    width: 485px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.je {
+    margin-left: 85px;
+}
+
+.logo {
+    margin-top: 120px;
+    height: 80px;
+    margin-left: 30%;
+}
+
+.logo-png img {
+    width: 483px;
+    height: 110px;
+}
+
+.sym {
+    display: flex;
+    width: 400px;
+    margin-left: 25%;
+}
+
+.sym p img {
+    height: 32px;
+    width: 32px;
+
+}
+
+.copy {
+    margin-left: 22%;
+}
